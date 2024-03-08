@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .gradient {
+    background: transparent;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid transparent;
+  background-clip: padding-box; 
+  background-image: linear-gradient(to right, rgb(17, 214, 214), rgb(214, 147, 23), rgb(157, 21, 157));
+  } .gradient:hover {
+    background: transparent;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid transparent;
+  background-clip: padding-box; 
+  background-image: linear-gradient(to right, rgb(0, 248, 248), rgb(255, 166, 0), rgb(255, 0, 255));
+  }
+  /* .gradient{
+    background-color: transparent;
+
+    border: 2px solid transparent;
+  
+    border-image: linear-gradient(to right, yellow, purple) ;
+  
+    border-image-slice: 10;
+  
+    border-radius: 5px;
+  
+    padding: 10px 20px;
+  } */
+}
